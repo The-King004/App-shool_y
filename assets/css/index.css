@@ -5,3 +5,15 @@ html {
 * {
     transition: all .30s ease-in-out;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.navLinks {
+    margin-left: 100%;
+}
+
+.mobile-menu {
+    margin-left: 0;
+}
