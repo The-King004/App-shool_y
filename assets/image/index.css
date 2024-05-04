@@ -1,0 +1,195 @@
+/* debut des variables */
+
+@import url('https://fonts.googleapis.com/css2? family= Poppins:wght@300 & family= Roboto:wght@300 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300;500&display=swap');
+/* 
+html{
+    font-size: 8px;
+} */
+
+:root{
+/* Concernant l'entete */
+    --BodyColor: #FFFFFF;
+    --headerColor:  #0F172A;
+    --mainHeadlineSize: 6.5rem;
+    --buttonHead: #0F172A;
+    --buttonColor:  #BE123C;
+    --textWoketyamo: 1.5rem;
+    --navBarheidth: 9.6rem;
+    --navBarpadding: 4rem, 10rem, 4rem, 10rem;
+    --raduisButton: .5rem;
+/* proprietes de la section apres l'entete */
+    --primarySectionColor: #F1F5F9;
+    --primarySectionPadding: 4.8rem, 8rem, 4.8rem, 8rem; 
+    --primarySectionheight: 12.8rem;
+/* proprietes de la section feature (PADDING DE 8rem a UTILISER SUR TOUT LES SECTIONS)*/
+    --sectionFeaturePadding: 6.5rem; 
+    --sectionFeatureWidth: 144rem; 
+    --sectionFeatureHeight: 58.6rem; 
+    --featureBoxheight: 35.4rem;
+    --featureBoxwidth: 23.6rem;
+    --featureBoxborder: .1rem;
+    --featureBoxraduis: .5rem;
+/* propriétes de la section "lates masterpieces" */
+    --boxHeadlinewidth: 30rem;
+    --boxHeadlineheight: 22rem;
+    --boxHeadlineraduis: .4rem;
+/* proprietes de la section "Best Solution for your ....." */
+    --secondSection:  #475569;
+/* police d'ecriture des grands titres */
+    --titleHeadFont: 'Roboto', sans-serif;; 
+/* proprietes de la dernier section */
+    --sectionEnd: #0F172A;
+/* Taille de tout les grands titre excepté celui de l'entete */
+    --sizeTitle : 5.6rem
+}
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.boot{
+    background-color: rgb(64, 184, 224);
+    color: #F1F5F9;
+}
+
+
+
+/* fin du footer */
+.cc-navbar{
+    background-color: rgb(0,0,0,0.55);
+    font-family: serif;
+    box-shadow: 1px 1px 3px rgba(255,255,255,.54);
+    z-index: 99;
+}
+
+.cc-navbar .nav-link{
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom .4s ease-in-out, borde-color .3s ease;
+}
+.banner, 
+.order-form{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../image/retour-de-yaounde.jpg') center center fixed no-repeat;
+    height: 500px;
+    background-size: cover;
+
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+}
+.banner, h1{
+    color: #fff;
+}
+.order-form{
+
+}
+.yannick{
+    background-size: cover;
+}
+
+.cc-navbar .nav-link:hover{
+    padding-bottom: 20px;
+    border-bottom-color:var(--bs-teal) ;
+}
+.btn-order{
+    color: var(--bs-teal);
+    border-color: var(--bs-teal);
+    transition: o,5s;
+}
+.btn-order:hover,
+.btn-order:active{
+    color: #fff;
+    background-color: var(--bs-teal);
+}
+.merriweather{
+    font-family: serif;
+}
+.banner-desc{
+    font-size: 35px ;
+    font-weight: 400;
+    color: #ffffff;
+}
+.cc-menu{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../image/retour-de-yaounde.jpg') center center fixed no-repeat;
+    height: 1500px;
+    background-size: cover;
+}
+.formulaire{
+    background-color: rgb(0,0,0,0.55);
+}
+
+
+/* debut du footer */
+
+
+.footer{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: var(--BodyColor);
+    margin-: 5rem;
+}
+.footer h1{
+    font-size: 1.5rem;
+    font-family: var(--titleHeadFont);
+    margin-bottom: 3rem;
+    color: var(--secondSection);
+}
+.footer li{
+    font-size: 1rem;
+    font-family: var(--titleHeadFont);
+    margin-bottom: 2.1rem;
+    list-style-type: none;
+    color: var(--secondSection);
+} 
+
+/* Fin du traitement du footer */
+/* Traitement de la section finale */
+
+.end{
+    width: 100vw;
+    height: 30vh;
+    background-color: var(--BodyColor);
+}
+.end__text{
+    display: flex;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    justify-content: space-between;
+    align-items: center;;
+}
+.end__text h2{
+    font-size: .8rem;
+    font-family: var(--titleHeadFont);
+    color: var(--secondSection);
+}
+.end__reseaux img{
+    margin-left: 1rem;
+}
+.end__message{
+    font-size: .8rem;
+    font-family: var(--titleHeadFont);
+    display: flex;
+    align-items: center;
+    padding: 5rem;
+    color: var(--secondSection);
+}
+hr{
+    width: 92%;
+}
+.image{
+    height: 50rem;
+    width: 70%;
+}
+.ftic-u{
+    color: #10c33a;
+    font-size: 5rem;
+}
+/* Fin de la section end */

@@ -4,10 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="./assets/js/tailwind.js"></script>
+    <!-- <script src="./assets/js/tailwind.config.js"></script> -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="./assets/css/index.css">
+
 </head>
 <body>
-    hahaha
+    <header class="w-screen h-[6rem] bg-slate-600 flex items-center justify-between px-[2rem] relative">
+        <div class="logo">
+            <a href="#" class="text-4xl font-bold uppercase">
+                <h1>
+                    upac
+                </h1>
+            </a>
+        </div>
+        <div class="absolute top-0 left-0 w-screen h-screen bg-red-400 navLinks px-[2rem] py-[4rem] hidden">
+            <ul class="text-[2rem] w-full h-[50%] flex flex-col items-center justify-between">
+                <li class="px-[4rem] py-[1rem] bg-emerald-500 rounded-xl scale-125 font-semibold"><a href="#" >Accueil</a></li>
+                <li class="hover:px-[4rem] hover:py-[1rem] hover:bg-emerald-500 hover:rounded-xl hover:scale-125 font-semibold"><a href="#">link</a></li>
+                <li class="hover:px-[4rem] hover:py-[1rem] hover:bg-emerald-500 hover:rounded-xl hover:scale-125 font-semibold"><a href="#">undefined</a></li>
+                <li class="hover:px-[4rem] hover:py-[1rem] hover:bg-emerald-500 hover:rounded-xl hover:scale-125 font-semibold">
+                    <a href="#">login</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <button>sign up</button>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="btn">
+            <button class="w-[4rem] h-[4rem]">
+                <!-- <ion-icon name="menu-outline" class="w-full h-full text-white"></ion-icon> -->
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff">
+                    <path d="M432 176H80c-8.8 0-16-7.2-16-16s7.2-16 16-16h352c8.8 0 16 7.2 16 16s-7.2 16-16 16zM432 272H80c-8.8 0-16-7.2-16-16s7.2-16 16-16h352c8.8 0 16 7.2 16 16s-7.2 16-16 16zM432 368H80c-8.8 0-16-7.2-16-16s7.2-16 16-16h352c8.8 0 16 7.2 16 16s-7.2 16-16 16z"/>
+                </svg>
+            </button>
+        </div>
+    </header>
+   
     
     <script src="./assets/js/index.js"></script>
 </body>
